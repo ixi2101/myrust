@@ -20,6 +20,11 @@ mod tests {
         assert_eq!(result, 4);
     }
     #[test]
+    fn tesst_add() {
+        let result = add(2, 2);
+        assert_eq!(result, 0);
+    }
+    #[test]
     fn tesst_sub() {
         let result = subtract(2, 2);
         assert_eq!(result, 0);
